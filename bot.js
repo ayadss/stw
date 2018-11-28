@@ -1,6 +1,4 @@
-const prefix ="!";
-const Discord = require('discord.js');
-const client = new Discord.Client();
+
 
 client.on('ready', () => {
  console.log("هلا التوت شغل تمم "); 
@@ -13,6 +11,12 @@ console.log("log");
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "!";
+
+client.on('ready', () => {
+ console.log("هلا التوت شغل تمم "); 
+console.log("log");
+});
+
 var adminprefix = '!'
 
 const developers = ["511902311300202498","id"]

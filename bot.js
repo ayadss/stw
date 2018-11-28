@@ -18,7 +18,6 @@ console.log("log");
 });
 
 var adminprefix = '!'
-
 const developers = ["511902311300202498","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
